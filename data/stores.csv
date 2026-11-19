@@ -1,4 +1,0 @@
-store_id,region,tier,open_start,open_end,cohort
-s-1,north,priority,08:00,20:00,pilot
-s-2,north,standard,09:00,18:00,comparison
-s-3,south,standard,10:00,20:00,pilot

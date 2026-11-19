@@ -1,5 +1,0 @@
-request_id,store_id,occurred_utc,latency_ms,status
-r1,s-1,2026-11-11T10:00:00Z,70,ok
-r2,s-1,2026-11-11T10:01:00Z,240,timeout
-r3,s-2,2026-11-11T11:00:00Z,180,ok
-r4,s-3,2026-11-11T12:00:00Z,90,ok

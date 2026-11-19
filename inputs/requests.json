@@ -1,0 +1,26 @@
+[
+  {
+    "id": "B1",
+    "workload": "W1",
+    "units": 60,
+    "earliest": "2026-11-18T20:00:00Z",
+    "deadline": "2026-11-19T06:00:00Z",
+    "priority": 1
+  },
+  {
+    "id": "B2",
+    "workload": "W2",
+    "units": 30,
+    "earliest": "2026-11-18T20:00:00Z",
+    "deadline": "2026-11-19T06:00:00Z",
+    "priority": 1
+  },
+  {
+    "id": "B3",
+    "workload": "W1",
+    "units": 100,
+    "earliest": "2026-11-18T20:00:00Z",
+    "deadline": "2026-11-19T10:00:00Z",
+    "priority": 2
+  }
+]

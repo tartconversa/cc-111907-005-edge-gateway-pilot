@@ -1,0 +1,23 @@
+[
+  {
+    "store": "S1",
+    "open_hour": 8,
+    "close_hour": 20,
+    "latency_limit_ms": 120,
+    "central_transfer_fen_mb": "0.05"
+  },
+  {
+    "store": "S2",
+    "open_hour": 9,
+    "close_hour": 18,
+    "latency_limit_ms": 150,
+    "central_transfer_fen_mb": "0.08"
+  },
+  {
+    "store": "S3",
+    "open_hour": 10,
+    "close_hour": 20,
+    "latency_limit_ms": 100,
+    "central_transfer_fen_mb": "0.06"
+  }
+]

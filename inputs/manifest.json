@@ -1,0 +1,12 @@
+{
+  "files": {
+    "gateways.json": "c45ce7565c693c6060554b3fb0696a3f21b6cbc55655d051a0dbcb4a9c8109e5",
+    "stores.json": "41d01f99835d2d539b46a527aea442074653fb56e3044871629d24a0210ec102",
+    "telemetry.json": "6451b2a811b4e055a1ac9e06b851176a3270a564ebeaa12f55ada7300f2b042d",
+    "workloads.json": "681852b9eb216d77fd68286746232e115cdb82afc62ed9a6456bc0a538a34bbd",
+    "requests.json": "2773c5d99b99c55cc8db3c65b00b2f8600ef02c2b7cb0a136074ea44e5eabde4",
+    "maintenance.json": "c4216c657a4c870eea6e7256389efacb73efdf6803065c9f210ac62fecc3104c",
+    "schema.json": "fdae388069ec8af876fcdd8d9f6aed7277af1b780422adb70b50d1c4c3d3cf1a"
+  },
+  "synthetic": true
+}

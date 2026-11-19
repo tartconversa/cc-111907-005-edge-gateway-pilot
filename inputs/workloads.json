@@ -1,0 +1,25 @@
+[
+  {
+    "workload": "W1",
+    "compatible": [
+      "edge-a",
+      "edge-b"
+    ],
+    "memory_mb": 1600,
+    "minutes_per_unit": 5,
+    "transfer_mb_unit": 20,
+    "interruptible": true,
+    "central_fen_unit": 50
+  },
+  {
+    "workload": "W2",
+    "compatible": [
+      "edge-b"
+    ],
+    "memory_mb": 4000,
+    "minutes_per_unit": 12,
+    "transfer_mb_unit": 40,
+    "interruptible": false,
+    "central_fen_unit": 120
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "gateways": {
+    "definition": "固定设备能力；替换设备需独立容量记录。",
+    "columns": {
+      "gateway": "设备",
+      "store": "门店",
+      "model_family": "兼容系列",
+      "memory_mb": "内存MB",
+      "slots": "并发槽",
+      "uplink_mb_min": "上传MB/分钟"
+    }
+  },
+  "stores": {
+    "definition": "营业体验底线约束门店负载安排。",
+    "columns": {
+      "store": "门店",
+      "open_hour": "UTC营业开始",
+      "close_hour": "UTC营业结束",
+      "latency_limit_ms": "延迟限额",
+      "central_transfer_fen_mb": "传输每MB分"
+    }
+  },
+  "telemetry": {
+    "definition": "不规则间隔的实际观测，未知不是零。",
+    "columns": {
+      "id": "采样",
+      "gateway": "设备",
+      "observed": "观测",
+      "received": "接收",
+      "used_memory_mb": "已用内存",
+      "busy_slots": "忙槽位",
+      "latency_ms": "业务延迟"
+    }
+  },
+  "workloads": {
+    "definition": "任务实际需求，不是期望安排。",
+    "columns": {
+      "workload": "业务模型",
+      "compatible": "兼容系列",
+      "memory_mb": "单并行内存",
+      "minutes_per_unit": "单位工作分钟",
+      "transfer_mb_unit": "单位传输MB",
+      "interruptible": "可中断",
+      "central_fen_unit": "中心处理分/单位"
+    }
+  },
+  "requests": {
+    "definition": "新增接入需求。",
+    "columns": {
+      "id": "请求",
+      "workload": "模型",
+      "units": "数量",
+      "earliest": "开始下限",
+      "deadline": "完成期限",
+      "priority": "优先级"
+    }
+  },
+  "maintenance": {
+    "definition": "生效后的维护窗口，不代表设备原有历史也不健康。",
+    "columns": {
+      "id": "记录",
+      "gateway": "设备",
+      "start": "开始",
+      "end": "结束",
+      "received": "已知时刻"
+    }
+  }
+}

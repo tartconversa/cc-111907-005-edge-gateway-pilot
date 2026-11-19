@@ -1,0 +1,26 @@
+[
+  {
+    "gateway": "E1",
+    "store": "S1",
+    "model_family": "edge-a",
+    "memory_mb": 4096,
+    "slots": 2,
+    "uplink_mb_min": 100
+  },
+  {
+    "gateway": "E2",
+    "store": "S2",
+    "model_family": "edge-b",
+    "memory_mb": 8192,
+    "slots": 3,
+    "uplink_mb_min": 80
+  },
+  {
+    "gateway": "E3",
+    "store": "S3",
+    "model_family": "edge-a",
+    "memory_mb": 4096,
+    "slots": 2,
+    "uplink_mb_min": 60
+  }
+]
