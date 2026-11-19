@@ -1,0 +1,2 @@
+record_id,store_id,gateway,start_utc,end_utc,reason
+m1,s-1,gw-1,2026-11-12T03:00:00Z,2026-11-12T05:00:00Z,reboot

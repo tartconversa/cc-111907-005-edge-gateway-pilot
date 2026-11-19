@@ -1,0 +1,4 @@
+event_id,store_id,gateway,version,event,occurred_utc
+g1,s-1,gw-1,1.0,online,2026-11-01T00:00:00Z
+g2,s-1,gw-1,1.1,upgrade,2026-11-10T00:00:00Z
+g3,s-2,gw-2,1.0,online,2026-11-01T00:00:00Z
